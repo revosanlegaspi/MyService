@@ -43,7 +43,7 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
-@EnableWebSecurity // Enables Spring Security's web security features
+@EnableWebSecurity
 public class SecurityConfig {
 
 	/**
@@ -143,12 +143,10 @@ public class SecurityConfig {
 	 */
 	@Bean
 	public UserDetailsService userDetailsService(PasswordEncoder passwordEncoder) {
-		// Define a user "user" with password "password" and role "USER"
 		UserDetails user = User.builder().username("user").password(passwordEncoder.encode("password")).roles("USER")
 				.build();
 		UserDetails admin = User.builder().username("admin").password(passwordEncoder.encode("adminpass"))
 				.roles("ADMIN", "USER").build();
-
 		return new InMemoryUserDetailsManager(user, admin);
 	}
 
