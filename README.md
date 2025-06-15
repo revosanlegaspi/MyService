@@ -143,8 +143,25 @@ This project emphasizes a range of best practices to ensure a high-quality, main
 
 -----
 
-## 📜 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+## 🛡 License
 
-This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+You're free to use, modify, and distribute it — but I'd greatly appreciate your support if you find it useful.
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## ☕ Like This Project?
+
+If this project made your life easier, consider buying me a coffee or donating:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-PayPal-blue.svg?logo=paypal)](https://www.paypal.me/revosanlegaspi)
+
+📱 **GCash Support**  
+
+For Philippine-based supporters, you may also send a token of appreciation via GCash:  
+
+**Account Name:** *Revosan Legaspi*  
+**Mobile Number:** `09164241099` 
 
 -----
