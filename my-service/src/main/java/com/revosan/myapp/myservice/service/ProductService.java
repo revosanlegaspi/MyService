@@ -20,6 +20,8 @@ package com.revosan.myapp.myservice.service;
 
 import com.revosan.myapp.myservice.model.Product;
 import com.revosan.myapp.myservice.repository.ProductRepository;
+
+import java.math.BigDecimal;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -82,7 +84,7 @@ public class ProductService extends MainService<Product, Long> {
 	@Override
 	@Transactional
 	public Product save(Product product) {
-		if (product.getPrice() <= 0) {
+		if (product.getPrice().compareTo(BigDecimal.ZERO) < 0) {
 			throw new IllegalArgumentException("Product price must be positive.");
 		}
 		return super.save(product);
