@@ -143,8 +143,8 @@ This project emphasizes a range of best practices to ensure a high-quality, main
 
 -----
 
-## 📜 License
+## 📜 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
 
 -----
